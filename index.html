@@ -3,108 +3,137 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ankit Ghimire</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <meta name="description" content="Ankit Ghimire is a senior studying Computer Science at the University of Southern Mississippi and an undergraduate researcher at the Cyber Innovation Lab, interested in multimodal systems, OOD generalization, and causal learning." />
+  <meta name="theme-color" content="#dff2ff" />
+  <title>Ankit Ghimire — Research Portfolio</title>
+  <link rel="icon" href="assets/favicon-ag.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="assets/manrope.css" />
+  <link rel="stylesheet" href="assets/plex-mono.css" />
+  <link rel="stylesheet" href="assets/bangers.css" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <main>
-    <header>
-      <div class="header-content">
-        <div class="name-block">
-          <h1>Ankit Ghimire</h1>
-          <p class="tagline">Undergraduate Researcher · University of Southern Mississippi</p>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="masthead">
+    <div class="masthead-inner">
+      <a class="wordmark" href="#top" aria-label="Ankit Ghimire, home">AG<span>.</span></a>
+      <span class="edition">HATTIESBURG · MISSISSIPPI</span>
+      <nav aria-label="Main navigation"><a href="#publications">The work</a><a href="#about">The human</a><a href="#contact">Say hi</a></nav>
+    </div>
+  </header>
+
+  <main id="main" class="comic-book">
+    <section class="cover" id="top" aria-labelledby="intro-title" tabindex="-1">
+      <div class="cover-copy">
+        <p class="cover-kicker">COMPUTER SCIENCE / SOUTHERN MISS</p>
+        <h1 id="intro-title"><span>Ankit</span><span>Ghimire</span></h1>
+        <p class="cover-role">Studying causality</p>
+        <p class="cover-lab">Cyber Innovation Lab<br />University of Southern Mississippi</p>
+      </div>
+      <figure class="newsroom-board">
+        <img src="assets/research-board.svg" alt="A research board: a draft titled Beyond correlation, a sketch linking cause and effect through a shared factor, and pinned notes asking what changes when we intervene." width="460" height="400" fetchpriority="high" />
+        <figcaption>FROM THE RESEARCH DESK <span>· WORK IN PROGRESS</span></figcaption>
+      </figure>
+      <svg class="cover-skyline" viewBox="0 0 1080 100" preserveAspectRatio="none" aria-hidden="true"><path d="M0 100V56h45V27h48v45h32V39h45v18h36V7h52v46h33V35h38v34h40V20h44v38h29V42h58v24h36V15h44v40h37V31h49v33h38V8h46v47h36V35h49v28h33V21h47v40h49V40h35v60Z" /></svg>
+      <span class="cover-issue">VOL. 01 / 2026</span>
+    </section>
+
+    <section id="publications" class="publications" aria-labelledby="publications-title">
+      <div class="section-heading"><h2 id="publications-title">The paper trail</h2><span>SELECTED PUBLICATIONS</span></div>
+      <section class="publication-group" aria-labelledby="published-title">
+        <h3 class="group-title" id="published-title"><span class="group-square" aria-hidden="true"></span> Published papers</h3>
+        <div class="published-grid">
+          <article class="paper-card" id="redemption-score">
+            <a class="paper-figure" href="assets/papers/redemption-score.png" target="_blank" rel="noopener" aria-label="Open the redemption score figure at full size"><img src="assets/papers/redemption-score.png" alt="Redemption Score paper, Figure 2: MID, DINO similarity, and GTEScore combined into the evaluation score." width="1554" height="804" loading="lazy" /></a>
+            <div class="paper-copy">
+              <h4><a href="https://arxiv.org/abs/2505.16180" target="_blank" rel="noopener">Redemption Score: A Multi-Modal Evaluation Framework for Image Captioning via Distributional, Perceptual, and Linguistic Signal Triangulation</a></h4>
+              <p class="authors">A. Dahal*, <strong>A. Ghimire</strong>*, S. A. Murad, N. Rahimi</p>
+              <p class="venue">IEEE Transactions on Multimedia</p>
+            </div>
+          </article>
+          <article class="paper-card" id="povqa">
+            <a class="paper-figure" href="assets/papers/povqa.png" target="_blank" rel="noopener" aria-label="Open the povqa figure at full size"><img src="assets/papers/povqa.png" alt="POVQA paper, Figure 2: temporal pooling, subtitle alignment, supervised fine-tuning, and preference optimization." width="1491" height="972" loading="lazy" /></a>
+            <div class="paper-copy">
+              <h4><a href="https://arxiv.org/abs/2510.01009" target="_blank" rel="noopener">POVQA: Preference-Optimized Video Question Answering with Rationales for Data Efficiency</a></h4>
+              <p class="authors">A. Dahal, <strong>A. Ghimire</strong>, S. A. Murad, N. Rahimi</p>
+              <p class="venue">IEEE/CVF CVPR Workshops (CVPRW), 2026</p>
+            </div>
+          </article>
         </div>
-        <nav class="links">
-          <a href="mailto:ankit.ghimire@usm.edu">Email</a>
-          <a href="https://github.com/AnkitGhimre" target="_blank" rel="noopener">GitHub</a>
-          <a href="https://scholar.google.com/citations?user=AnkitGhimire" target="_blank" rel="noopener">Scholar</a>
-        </nav>
-      </div>
-    </header>
-
-    <section id="about">
-      <p>
-        I'm a junior studying Computer Science (B.S.) with a minor in Mathematics at USM. I work in the <strong>Cyber Innovation Lab</strong> on graph neural networks, hyperbolic representation learning, and multimodal AI.
-      </p>
-    </section>
-
-    <section id="interests">
-      <h2>Research Interests</h2>
-      <ul class="tag-list">
-        <li>Graph Neural Networks</li>
-        <li>Hyperbolic Representation Learning</li>
-        <li>Graph OOD Generalization</li>
-        <li>Multimodal Learning</li>
-        <li>Large-Scale Transaction Network Analysis</li>
-      </ul>
-    </section>
-
-    <section id="publications">
-      <h2>Publications</h2>
-
-      <div class="pub-group">
-        <h3>Peer-Reviewed</h3>
-        <article class="pub">
-          <p class="pub-title">POVQA: Preference-Optimized Video Question Answering with Rationales for Data Efficiency</p>
-          <p class="pub-authors">A. Dahal, <strong>A. Ghimire</strong>, S. A. Murad, N. Rahimi</p>
-          <p class="pub-venue">IEEE/CVF CVPR Workshops (CVPRW), 2026</p>
+      </section>
+      <section class="publication-group revision-group" aria-labelledby="revision-title">
+        <h3 class="group-title" id="revision-title"><span class="group-square revision-square" aria-hidden="true"></span> Under revision</h3>
+        <article class="paper-card wide-paper" id="depth-aware">
+          <a class="paper-figure" href="assets/papers/depth-aware.png" target="_blank" rel="noopener" aria-label="Open the depth aware figure at full size"><img src="assets/papers/depth-aware.png" alt="Depth-Aware paper, Figure 1: Bitcoin transaction processing, subgraph sampling, and Euclidean and hyperbolic GNN comparison." width="1572" height="732" loading="lazy" /></a>
+            <div class="paper-copy">
+            <span class="revision-stamp">UNDER REVISION</span>
+            <h4><a href="https://arxiv.org/abs/2603.16080" target="_blank" rel="noopener">A Depth-Aware Comparative Study of Euclidean and Hyperbolic Graph Neural Networks on Bitcoin Transaction Systems</a></h4>
+            <p class="authors"><strong>A. Ghimire</strong>, S. A. Murad, N. Rahimi</p>
+            <p class="venue">IEEE Transactions on Computational Social Systems</p>
+          </div>
         </article>
-      </div>
-
-      <div class="pub-group">
-        <h3>Preprints</h3>
-        <article class="pub">
-          <p class="pub-title">Redemption Score: A Multi-Modal Evaluation Framework for Image Captioning via Distributional, Perceptual, and Linguistic Signal Triangulation</p>
-          <p class="pub-authors">A. Dahal, <strong>A. Ghimire</strong>*, S. A. Murad, N. Rahimi</p>
-          <p class="pub-venue">arXiv:2505.16180 · 2025</p>
-          <a class="pub-link" href="https://arxiv.org/abs/2505.16180" target="_blank" rel="noopener">arXiv</a>
-        </article>
-        <article class="pub">
-          <p class="pub-title">A Depth-Aware Comparative Study of Euclidean and Hyperbolic Graph Neural Networks on Bitcoin Transaction Systems</p>
-          <p class="pub-authors"><strong>A. Ghimire</strong>, S. A. Murad, N. Rahimi</p>
-          <p class="pub-venue">arXiv:2603.16080 · 2026</p>
-          <a class="pub-link" href="https://arxiv.org/abs/2603.16080" target="_blank" rel="noopener">arXiv</a>
-        </article>
-      </div>
+      </section>
     </section>
 
-    <section id="experience">
-      <h2>Experience</h2>
-      <div class="exp-item">
-        <div class="exp-header">
-          <span class="exp-role">Undergraduate Researcher</span>
-          <span class="exp-date">Jan 2025 – Present</span>
-        </div>
-        <span class="exp-org">Cyber Innovation Lab, University of Southern Mississippi</span>
-        <ul>
-          <li>Euclidean and hyperbolic GNNs for fraud detection in large-scale Bitcoin transaction graphs.</li>
-          <li>Multimodal evaluation frameworks for image captioning using distributional, perceptual, and linguistic signals.</li>
-          <li>Long-context multimodal video QA with rationale supervision and preference optimization.</li>
-          <li>Graph out-of-distribution generalization and robustness in GNNs.</li>
-        </ul>
-      </div>
-    </section>
+    <div class="identity-grid">
+      <section class="identity-panel" id="about" aria-labelledby="about-title">
+        <h2 id="about-title">The identity</h2>
+        <p>Hi, my name is Ankit Ghimire. I am a senior at the University of Southern Mississippi majoring in Computer Science with a minor in Mathematics. I am an undergraduate student researcher at the <strong>Cyber Innovation Lab</strong>, advised by <a href="https://nickrahimi.com/" target="_blank" rel="noopener">Prof. Nick Rahimi</a>. I am broadly interested in multimodal systems, out-of-distribution (OOD) generalization, and causal learning.</p>
+      </section>
+      <section class="interests-panel" id="interests" aria-labelledby="interests-title">
+        <h2 id="interests-title">Research radar</h2>
+        <svg class="research-radar" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="research-radar-title research-radar-description">
+          <title id="research-radar-title">Research interests</title>
+          <desc id="research-radar-description">Multimodal AI; Causal Learning, highlighted in yellow; Hyperbolic Representation Learning; Graph OOD Generalization. All four interests appear as labeled targets inside a research radar.</desc>
+          <defs><radialGradient id="radar-beam"><stop offset="0" stop-color="#ffe34b" stop-opacity=".02" /><stop offset="1" stop-color="#ffe34b" stop-opacity=".16" /></radialGradient></defs>
+          <circle cx="200" cy="200" r="191" fill="#10212e" stroke="#71858a" />
+          <circle cx="200" cy="200" r="184" fill="none" stroke="#40575d" stroke-dasharray="1 9" stroke-width="3" />
+          <g fill="none" stroke="#39525b" stroke-width=".8">
+            <circle cx="200" cy="200" r="140" /><circle cx="200" cy="200" r="91" /><circle cx="200" cy="200" r="43" />
+            <path d="M200 10v380M10 200h380" stroke-dasharray="3 7" />
+          </g>
+          <g class="radar-sweep"><path d="M200 200V10a190 190 0 0 1 164.5 95Z" fill="url(#radar-beam)" /><path d="M200 200V10" stroke="#ffe34b" stroke-width="1" opacity=".45" /></g>
+          <g class="radar-target">
+            <circle cx="111" cy="111" r="4" />
+            <text x="111" y="137">Multimodal AI</text>
+          </g>
+          <g class="radar-target radar-target-focus">
+            <circle class="target-ring" cx="282" cy="111" r="10" />
+            <path d="M282 95v5m0 22v5M266 111h5m22 0h5" fill="none" stroke="#ffe34b" />
+            <circle cx="282" cy="111" r="4" />
+            <rect x="208" y="131" width="148" height="31" rx="4" />
+            <text x="282" y="152">Causal Learning</text>
+          </g>
+          <g class="radar-target">
+            <circle cx="113" cy="235" r="4" />
+            <text x="113" y="261"><tspan x="113">Hyperbolic</tspan><tspan x="113" dy="21">Representation</tspan><tspan x="113" dy="21">Learning</tspan></text>
+          </g>
+          <g class="radar-target">
+            <circle cx="282" cy="235" r="4" />
+            <text x="282" y="261"><tspan x="282">Graph OOD</tspan><tspan x="282" dy="21">Generalization</tspan></text>
+          </g>
+          <path d="M194 22h12M200 16v12M194 378h12M200 372v12M16 200h12M22 194v12M372 200h12M378 194v12" stroke="#96a6a8" />
+        </svg>
+      </section>
+    </div>
 
-    <section id="honors">
-      <h2>Honors &amp; Awards</h2>
-      <ul class="award-list">
-        <li>
-          <span class="award-name">Second Place — Best Presentation on Computational Approaches ($300)</span>
-          <span class="award-org">Undergraduate Symposium for Research and Creative Activity, Drapeau Center, 2026</span>
-        </li>
-        <li>
-          <span class="award-name">Keystone Honors Scholar &amp; Merit-Based Full-Tuition Scholarship</span>
-          <span class="award-org">University of Southern Mississippi, 2025 – 2027</span>
-        </li>
-      </ul>
-    </section>
+    <div class="background-grid">
+      <section class="background-panel" id="experience" aria-labelledby="experience-title">
+        <h2 id="experience-title">Experience</h2>
+        <p class="date">Jan 2025 – Present</p><h3>Undergraduate Researcher</h3><p class="organization">Cyber Innovation Lab</p><p class="university">University of Southern Mississippi</p>
+        <ul class="experience-list"><li>Multimodal evaluation frameworks for image captioning using distributional, perceptual, and linguistic signals.</li><li>Long-context multimodal video QA with rationale supervision and preference optimization.</li><li>Graph out-of-distribution generalization and robustness in GNNs.</li><li>Euclidean and hyperbolic GNNs for fraud detection in large-scale Bitcoin transaction graphs.</li></ul>
+      </section>
+      <section class="background-panel honors-panel" id="honors" aria-labelledby="honors-title">
+        <h2 id="honors-title">Honors &amp; awards</h2>
+        <ul class="award-list"><li><p class="date">2026</p><h3>Second Place — Best Presentation on Computational Approaches</h3><p>Undergraduate Symposium for Research and Creative Activity, Drapeau Center</p><p class="award-note">Research presentation award · $300</p></li><li><p class="date">2025 – 2027</p><h3>Keystone Honors Scholar &amp; Merit-Based Full-Tuition Scholarship</h3><p>University of Southern Mississippi</p></li></ul>
+      </section>
+    </div>
 
-    <footer>
-      <p>Ankit Ghimire · Hattiesburg, MS · <a href="mailto:ankit.ghimire@usm.edu">ankit.ghimire@usm.edu</a></p>
-    </footer>
+    <section class="contact-panel" id="contact" aria-labelledby="contact-title">
+      <div><h2 id="contact-title">Same planet say hi.</h2><a class="email-link" href="mailto:ankit.ghimire@usm.edu">ankit.ghimire@usm.edu</a></div>
+      <nav class="social-links" aria-label="Profiles"><a href="https://github.com/AnkitGhimre" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a><a href="https://scholar.google.com/citations?user=AnkitGhimire" target="_blank" rel="noopener">Google Scholar <span aria-hidden="true">↗</span></a></nav>
+    </section>
+    <footer><p>© 2026 Ankit Ghimire<span class="art-credit"><a href="credits.html">Image sources</a></span></p><a class="up-up-away" href="#top"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 25V7m-7 7 7-7 7 7"/></svg><span>Up and away</span></a></footer>
   </main>
 </body>
 </html>
